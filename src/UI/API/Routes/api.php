@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use VendorName\Skeleton\UI\API\Controllers\SingleNameController;
+use AdminKit\Contacts\UI\API\Controllers\ContactController;
 
-Route::get('/skeleton_without_prefix', [SingleNameController::class, 'index']);
-Route::get('/skeleton_without_prefix/{id}', [SingleNameController::class, 'show']);
+Route::get('/contacts', [ContactController::class, 'index']);
+Route::get('/contacts/{id}', [ContactController::class, 'show']);
