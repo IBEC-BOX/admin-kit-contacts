@@ -2,9 +2,9 @@
 
 namespace AdminKit\Contacts;
 
+use AdminKit\Contacts\UI\Filament\Resources\ContactResource;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use AdminKit\Contacts\UI\Filament\Resources\ContactResource;
 
 class FilamentPlugin implements Plugin
 {
