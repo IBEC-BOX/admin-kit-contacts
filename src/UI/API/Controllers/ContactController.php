@@ -5,16 +5,16 @@ declare(strict_types=1);
 namespace AdminKit\Contacts\UI\API\Controllers;
 
 use AdminKit\Contacts\Models\Contact;
+use Spatie\LaravelData\DataCollection;
+use AdminKit\Contacts\UI\API\DTO\ContactDTO;
 
 class ContactController extends Controller
 {
-    public function index()
+    public function index(): DataCollection
     {
-        return Contact::all();
-    }
+        $contacts = Contact::query()
+            ->get();
 
-    public function show(int $id)
-    {
-        return Contact::findOrFail($id);
+        return ContactDTO::collection($contacts);
     }
 }

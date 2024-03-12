@@ -2,11 +2,14 @@
 
 return [
     'resource' => [
-        'label' => 'Contact',
-        'plural_label' => 'Contacts',
+        'label' => 'Контакт',
+        'plural_label' => 'Контакты',
 
         'id' => 'ID',
-        'title' => 'Title',
+        'title' => 'Заголвок',
+        'phone' => 'Номер телефона',
+        'email' => 'Электронная почта',
+        'address' => 'Адрес',
 
         'created_at' => 'Создан',
         'updated_at' => 'Обновлен',
