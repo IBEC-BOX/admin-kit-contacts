@@ -2,8 +2,8 @@
 
 namespace AdminKit\Contacts\UI\API\DTO;
 
-use Spatie\LaravelData\Data;
 use AdminKit\Contacts\Models\Contact;
+use Spatie\LaravelData\Data;
 
 class ContactDTO extends Data
 {
@@ -12,8 +12,7 @@ class ContactDTO extends Data
         public string $phone,
         public string $mail,
         public string $address,
-    )
-    {
+    ) {
     }
 
     public static function fromModel(Contact $contact): ContactDTO

@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace AdminKit\Contacts\UI\API\Controllers;
 
 use AdminKit\Contacts\Models\Contact;
-use Spatie\LaravelData\DataCollection;
 use AdminKit\Contacts\UI\API\DTO\ContactDTO;
+use Spatie\LaravelData\DataCollection;
 
 class ContactController extends Controller
 {
