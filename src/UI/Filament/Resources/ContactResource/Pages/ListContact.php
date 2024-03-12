@@ -2,9 +2,9 @@
 
 namespace AdminKit\Contacts\UI\Filament\Resources\ContactResource\Pages;
 
+use AdminKit\Contacts\UI\Filament\Resources\ContactResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
-use AdminKit\Contacts\UI\Filament\Resources\ContactResource;
 
 class ListContact extends ListRecords
 {

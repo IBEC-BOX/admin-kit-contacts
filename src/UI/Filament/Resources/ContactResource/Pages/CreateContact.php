@@ -2,8 +2,8 @@
 
 namespace AdminKit\Contacts\UI\Filament\Resources\ContactResource\Pages;
 
-use Filament\Resources\Pages\CreateRecord;
 use AdminKit\Contacts\UI\Filament\Resources\ContactResource;
+use Filament\Resources\Pages\CreateRecord;
 
 class CreateContact extends CreateRecord
 {

@@ -2,8 +2,8 @@
 
 namespace AdminKit\Contacts\Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use AdminKit\Contacts\Models\Contact;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ContactFactory extends Factory
 {

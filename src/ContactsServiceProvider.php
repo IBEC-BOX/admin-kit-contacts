@@ -2,10 +2,10 @@
 
 namespace AdminKit\Contacts;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use AdminKit\Contacts\Commands\ContactsCommand;
 use AdminKit\Contacts\Providers\RouteServiceProvider;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class ContactsServiceProvider extends PackageServiceProvider
 {

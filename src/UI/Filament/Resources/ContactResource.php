@@ -2,12 +2,12 @@
 
 namespace AdminKit\Contacts\UI\Filament\Resources;
 
+use AdminKit\Contacts\Models\Contact;
+use AdminKit\Contacts\UI\Filament\Resources\ContactResource\Pages;
 use AdminKit\Core\Forms\Components\TranslatableTabs;
 use Filament\Forms;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use AdminKit\Contacts\Models\Contact;
-use AdminKit\Contacts\UI\Filament\Resources\ContactResource\Pages;
 
 class ContactResource extends Resource
 {

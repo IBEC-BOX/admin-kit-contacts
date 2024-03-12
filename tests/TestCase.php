@@ -2,10 +2,10 @@
 
 namespace AdminKit\Contacts\Tests;
 
+use AdminKit\Contacts\ContactsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AdminKit\Contacts\ContactsServiceProvider;
 
 class TestCase extends Orchestra
 {
