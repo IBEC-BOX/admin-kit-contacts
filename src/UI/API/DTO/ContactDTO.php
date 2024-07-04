@@ -3,10 +3,13 @@
 namespace AdminKit\Contacts\UI\API\DTO;
 
 use AdminKit\Contacts\Models\Contact;
+use Spatie\LaravelData\Concerns\WithDeprecatedCollectionMethod;
 use Spatie\LaravelData\Data;
 
 class ContactDTO extends Data
 {
+    use WithDeprecatedCollectionMethod;
+
     public function __construct(
         public string $title,
         public string $phone,
