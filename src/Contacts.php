@@ -2,6 +2,4 @@
 
 namespace AdminKit\Contacts;
 
-class Contacts
-{
-}
+class Contacts {}

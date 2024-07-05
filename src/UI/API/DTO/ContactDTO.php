@@ -15,8 +15,7 @@ class ContactDTO extends Data
         public string $phone,
         public string $mail,
         public string $address,
-    ) {
-    }
+    ) {}
 
     public static function fromModel(Contact $contact): ContactDTO
     {
