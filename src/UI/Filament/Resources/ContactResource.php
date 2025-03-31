@@ -21,8 +21,7 @@ class ContactResource extends Resource
             ->schema([
                 TranslatableTabs::make(fn ($locale) => Forms\Components\Tabs\Tab::make($locale)->schema([
                     Forms\Components\TextInput::make('title.'.$locale)
-                        ->label(__('admin-kit-contacts::contacts.resource.title'))
-                        ->required($locale === app()->getLocale()),
+                        ->label(__('admin-kit-contacts::contacts.resource.title')),
                     Forms\Components\RichEditor::make('phone.'.$locale)
                         ->label(__('admin-kit-contacts::contacts.resource.phone'))
                         ->required(app()->getLocale() === $locale),
@@ -30,8 +29,7 @@ class ContactResource extends Resource
                         ->label(__('admin-kit-contacts::contacts.resource.email'))
                         ->required(app()->getLocale() === $locale),
                     Forms\Components\RichEditor::make('address.'.$locale)
-                        ->label(__('admin-kit-contacts::contacts.resource.address'))
-                        ->required(app()->getLocale() === $locale),
+                        ->label(__('admin-kit-contacts::contacts.resource.address')),
                 ])),
             ])
             ->columns(1);
