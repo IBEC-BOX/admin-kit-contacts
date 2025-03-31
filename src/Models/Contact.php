@@ -12,7 +12,7 @@ use Spatie\Translatable\HasTranslations;
  * @property-read string $phone
  * @property-read string $mail
  * @property-read string $address
- * @property-read ?integer $sort
+ * @property-read ?int $sort
  */
 class Contact extends AbstractModel
 {
@@ -37,6 +37,6 @@ class Contact extends AbstractModel
 
     protected static function newFactory(): ContactFactory
     {
-        return new ContactFactory();
+        return new ContactFactory;
     }
 }
